@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <ActionBar title="Societa" cssClass="actionbar">
+   <NavigationButton android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+    <ActionBar.actionItems>
+	    
+        <!--<ActionItem text="Gare"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>-->
+        <ActionItem text="pop"   ios.position="right"  android.position="popup"/>
+      </ActionBar.actionItems>
+	</ActionBar> 
+  <ScrollView>
+  <ListView items="{{ atleti }}" id="lv1" itemTap="listViewItemTap">
+	 <ListView.itemTemplate>
+       <Label text="{{ doc.nome }}" textWrap="true" class="lvitem" />
+	   
+    </ListView.itemTemplate>
+	</ListView>
+	
+ </ScrollView>
+</Page>

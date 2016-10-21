@@ -1,0 +1,144 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <Page.actionBar>
+     <!--<ActionBar title="Title">
+      <NavigationButton text="Gare"/>
+    </ActionBar>-->
+    <ActionBar title="Gara" cssClass="actionbar">
+	 <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+      <ActionBar.actionItems>
+	    
+        <ActionItem text="Gare"  ios.position="left" android.position="left" />
+		 <ActionItem text="Guru"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>
+         <ActionItem android.position="popup" text="Refresh" tap="refreshGara" />
+         <ActionItem android.position="popup" text="Iscritti" tap="showIscritti" />
+        <ActionItem android.position="popup" text="About" />
+      </ActionBar.actionItems>
+    </ActionBar>
+  </Page.actionBar>
+  <ActivityIndicator busy="{{ isLoading }}" />
+ 	  <!--<ScrollView>-->
+<StackLayout orientation="vertical">
+
+  <!--<SegmentedBar style="vertical-align: top; margin: 20;">
+    <SegmentedBar.items>
+      <SegmentedBarItem title="Per match" id="sbprog"  />
+      <SegmentedBarItem title="Per atleta" id="sbatleta" />
+      <SegmentedBarItem title="Cronaca" id="sbcronaca" />
+    </SegmentedBar.items>
+  </SegmentedBar>-->
+  <Label id="garatitle" cssClass="atleta" margin="5"/>
+  <!--<StackLayout orientation="horizontal" height="50">
+  <Button tap="byprogTap" cssClass="pulsbar" text="Match" width="120" />
+  <Button tap="byatletaTap" cssClass="pulsbar" text="Atleti" width="120"/>
+  <Button tap="bycronacaTap" cssClass="pulsbar" text="Cronaca" width="120" />
+  	
+   </StackLayout>-->
+   <!--<SegmentedBar style="vertical-align: top; margin: 20;" selectedIndex="{{ barselectedIndex }}">
+    <SegmentedBar.items>
+      <SegmentedBarItem title="Match" />
+      <SegmentedBarItem title="Atleta" />
+      <SegmentedBarItem title="Cronaca" />
+    </SegmentedBar.items>
+  </SegmentedBar>-->
+  <!--<ScrollView orientation="horizontal">
+            <StackLayout orientation="horizontal" class="scroll-menu">
+                <StackLayout class="scroll-pane">
+                    <Label text="Your cool Slide" />                    
+                </StackLayout>
+                <StackLayout class="scroll-pane">
+                   <Button text="&#xf1e0; Test" tap="{{ tapAction }}" class="font-awesome" />              
+                </StackLayout>
+                <StackLayout class="scroll-pane">
+                    <Button text="Button" />                  
+                </StackLayout>
+                <StackLayout class="scroll-pane">
+                    <Button text="Button" />                  
+                </StackLayout>
+                <StackLayout class="scroll-pane">
+                    <Button text="Button" />                  
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>-->
+  
+     <TabView>
+   <TabView.items>
+     <TabViewItem title="Per match">
+       <TabViewItem.view>
+           <ListView  id="lvprog" itemTap="matchTap" visibility="visible">
+	 <ListView.itemTemplate>
+	 <StackLayout orientation="horizontal">
+	   <StackLayout  cssClass="session-container" width="50">
+	     <!--<Label text="imma" />-->
+		 
+		 <Image id="imgmatch" width="36" height="36" src="{{ doc.imgurl }}" />
+	   </StackLayout>
+	   <StackLayout cssClass="session-container" orientation="vertical">
+       <Label text="{{ doc.matchid}}" textWrap="true" cssClass="match" />
+	   <Label text="{{ doc.atletaname }}" textWrap="true" cssClass="atleta" />
+	   <Label text="{{ doc.risultext }}" textWrap="true" cssClass="risult" />
+	  </StackLayout> 
+	 </StackLayout> 
+    </ListView.itemTemplate>
+	</ListView>
+       </TabViewItem.view>
+     </TabViewItem>
+	 <TabViewItem title="Per atleta">
+       <TabViewItem.view>
+        <ListView  id="lvatleta" itemTap="matchAtletaTap" visibility="visible"  >
+	 <ListView.itemTemplate>
+	 <StackLayout orientation="horizontal">
+	   <StackLayout cssClass="session-container" width="50">
+	     <!--<Label text="imma" />-->
+		 <Image width="36" height="36" src="{{ 'res://matchok'}}" />
+	   </StackLayout>
+	   <StackLayout cssClass="session-container" orientation="vertical" id="sv2">
+	   
+	   <!--<TextView text="{{ nome + '\n' + matches }}" class="lvitem" />
+       <TextView text="{{ nome + ' - ' + matches }}" class="lvitem" />-->
+	
+	  <Label text="{{ nome}}" textWrap="true" cssClass="atleta" />
+	   <!--<Label text="{{ matchesarray | getMatchesStyle() }}" textWrap="true" cssClass="match" />-->
+	   <StackLayout orientation="horizontal" id="stack">
+	   
+	   </StackLayout>
+	    <Repeater items="{{ matchesarray }}">
+			<Repeater.itemsLayout>
+			   <WrapLayout />
+			</Repeater.itemsLayout>
+			<Repeater.itemTemplate>
+			   <Label text="{{ matchid }}" margin="3" cssClass="{{ matchclass}}"/>
+			</Repeater.itemTemplate>
+		</Repeater>
+       <!--<Label text="{{ nome + ' - ' + matches }}" textWrap="true" class="lvitem" />
+	   <Label text="{{ nome + ' - ' + matches }}" textWrap="true" class="lvitem" />-->
+	    </StackLayout>
+	</StackLayout>	
+		
+    </ListView.itemTemplate>
+	</ListView>
+       </TabViewItem.view>
+     </TabViewItem>
+     <TabViewItem title="Cronaca">
+       <TabViewItem.view>
+           <ListView   id="lvcronaca" itemTap="matchTap" visibility="visible">
+	 <ListView.itemTemplate>
+	  <StackLayout cssClass="session-container">
+	   <Label text="{{ time }}" textWrap="true" cssClass="time" />
+	   <Label text="{{ text }}" textWrap="true" cssClass="cronaca" />
+	   </StackLayout>
+    </ListView.itemTemplate>
+	</ListView>
+       </TabViewItem.view>
+     </TabViewItem>
+   </TabView.items>
+ </TabView>
+  
+	 
+	
+	
+	</StackLayout>
+	
+ <!--</ScrollView>-->
+  
+</Page>

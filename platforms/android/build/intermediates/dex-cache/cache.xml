@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-23.4.0_ee482da67c3dcf7d33148163dbb22a49c82a1204.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-23.4.0_02fe40b7c68c9fbfa4f128c612302a3da6a71454.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-23.4.0_ba1ef7d215964af3354901ffd6976a3834f358a3.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-23.4.0_64a3880a0514f45e03281cfaee0f1c89196ebfed.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-23.4.0_58b14c5023bd1af8c181ca741f2793adf6fc5519.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-23.4.0_0bc155bfdd1495d9886316931de847f5056b3a90.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.1/b34c1f2d993044656e87f88970b6818e99e886ba/okhttp-3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okhttp-3.0.1_54f4adb229e0889d5a8036f46d5db852fcdbee5e.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="89f0a1f737477abeda61c0072529d5158b1ebe81">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_93a3bc23e66f35ef494acfb1c5ea19df53cbb8b4.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/proj02/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="60fb0eb96d073a4a1d71095f8e16dbb6ff73681c">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/proj02-runtime-unspecified_a520d2ccfda61b36c70940f16b243e38fb893bc3.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/.gradle/caches/modules-2/files-2.1/io.socket/engine.io-client/0.7.0/c1b1d30e2d2231b2eae1438a44943a409b976dac/engine.io-client-0.7.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c1b1d30e2d2231b2eae1438a44943a409b976dac">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/engine.io-client-0.7.0_716ef5eb956bfb4afc605fbe56022365ac65f91e.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okio-1.6.0_343477a755b873479797f4c2d115cc63db83b121.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/.gradle/caches/modules-2/files-2.1/io.socket/socket.io-client/0.7.0/ce278c97bc9f74c7945d647f6d441d6013163362/socket.io-client-0.7.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ce278c97bc9f74c7945d647f6d441d6013163362">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/socket.io-client-0.7.0_e0aa0bf1bfb66fac1a6e70950c959eb8f89a53f4.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.0.1/bd9b51a0188fc8f14bf840a0d326755545206116/okhttp-ws-3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bd9b51a0188fc8f14bf840a0d326755545206116">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okhttp-ws-3.0.1_2711355dc908469b9c01f782638ed20676a5b38c.jar" />
+    </item>
+    <item
+        jar="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/exploded-aar/proj02/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="736a019270b8fb0fda4532f90fc9d1a7458022c0">
+        <dex dex="/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/pre-dexed/F0F1/debug/binding-generator_c28eb59a041762e885ecbeffdfd322f78d7ff5a1.jar" />
+    </item>
+
+</items>

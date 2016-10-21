@@ -1,0 +1,32 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <ActionBar title="Iscritti" cssClass="actionbar">
+  
+	 <NavigationButton android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+    <ActionBar.actionItems>
+	    
+        <!--<ActionItem text="Gare"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>-->
+        <ActionItem text="Refresh"   ios.position="right"  android.position="popup" tap="refreshIscritti"/>
+		<ActionItem text="Aggiungi iscritto"   ios.position="right"  android.position="popup"/>
+      </ActionBar.actionItems>
+	</ActionBar> 
+  <ScrollView>
+  <ListView items="{{ iscritti }}" id="lv1" itemTap="iscrittiTap">
+	 <ListView.itemTemplate>
+	 <GridLayout columns="*,40" rows="*,*" cssClass="session-container">
+	 <!--<StackLayout cssClass="session-container" orientation="vertical">-->
+	<!-- <Image  row="1" col="1" src="{{ 'res://add_to_fav_1'}}" />-->
+       <Label  col="0" row="0" text="{{ atletaname }}" textWrap="true" cssClass="gara" />
+	   <Label  col="1" row="0" text="{{ matchcount }}" textWrap="true" cssClass="badge " />
+	   <Label  colSpan="2" row="1" text="{{ categoria }}" textWrap="true" scssClass="badge " />
+	   <!--<Label  text="{{ doc.data + ' ' + doc.location }}" textWrap="true" cssClass="location" />
+	   <Label  text="{{ doc.stato | getMinchia() }}" textWrap="true" cssClass="location" />
+	    <Label  text="{{ doc.iscritti | getIscrittiLength() }}" textWrap="true" cssClass="location" />-->
+	  <!--</StackLayout>-->
+	  </GridLayout>
+	   
+    </ListView.itemTemplate>
+	</ListView>
+	
+ </ScrollView>
+</Page>

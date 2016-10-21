@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" navigatingTo="navigatingTo">  
+ <ActionBar title="AppKwonDo login" cssClass="actionbar">
+ </ActionBar>
+<StackLayout>  
+<TextField id="username" hint="Il tuo username" text="{{ username }}" />  
+<TextField id="password" hint="La tua password" text="{{ password }}" />  
+<Button text="ACCEDI" tap="loginTap" />  
+</StackLayout>  
+</Page>

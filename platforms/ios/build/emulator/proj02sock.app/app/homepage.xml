@@ -1,0 +1,28 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <ActionBar title="AppKwonDo v2" cssClass="actionbar">
+    <ActionBar.actionItems>
+	    
+        <!--<ActionItem text="Gare"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>-->
+        <ActionItem text="pop"   ios.position="right"  android.position="popup"/>
+      </ActionBar.actionItems>
+	</ActionBar> 
+	<StackLayout>
+	
+
+	<Label id="lb1" text="prova" cssClass="benvenuto" />
+	<Label id="lb2" text=" " cssClass="admin" />
+
+  
+  <ListView items="{{ items }}" id="lv1" itemTap="listViewItemTap">
+	 <ListView.itemTemplate>
+	  <GridLayout rows="*" columns="30,*">
+	  <Image src="{{ img }}" col="0"  />
+	  <!--<Label text="&#xf1d9;" class="font-awesome" />-->
+       <Label col="1" text="{{ name || 'Downloading...' }}" textWrap="true" cssClass="lvhomepage" />
+	   </GridLayout>
+    </ListView.itemTemplate>
+	</ListView>
+	</StackLayout>
+ 
+</Page>

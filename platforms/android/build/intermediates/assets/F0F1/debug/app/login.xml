@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" navigatingTo="navigatingTo">  
+ <ActionBar title="AppKwonDo login" cssClass="actionbar">
+ </ActionBar>
+<StackLayout id="logints">  
+<TextField id="username" hint="Il tuo username" text="DemyV2" />  
+<TextField id="password" hint="La tua password" text="Ser07glr" />  
+<Button text="ACCEDI" tap="loginTap" />  
+</StackLayout>  
+</Page>

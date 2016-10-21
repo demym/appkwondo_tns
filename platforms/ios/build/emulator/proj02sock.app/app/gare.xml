@@ -1,0 +1,33 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <ActionBar title="Gare" cssClass="actionbar">
+  
+	 <NavigationButton android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+    <ActionBar.actionItems>
+	    
+        <!--<ActionItem text="Gare"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>-->
+        <ActionItem text="pop"   ios.position="right"  android.position="popup"/>
+      </ActionBar.actionItems>
+	</ActionBar> 
+	 <StackLayout orientation="vertical">
+	 
+	<Label  id="count" textWrap="true" />
+
+
+  <ListView items="{{ gare }}" id="lv1" itemTap="gareTap">
+	 <ListView.itemTemplate>
+	 <!--<GridLayout columns="*, auto" rows="auto, auto, auto" cssClass="session-container">-->
+	 <StackLayout cssClass="session-container">
+	<!-- <Image  row="1" col="1" src="{{ 'res://add_to_fav_1'}}" />-->
+       <Label  text="{{ doc.title }}" textWrap="true" cssClass="gara" />
+	   <Label  text="{{ doc.data + ' ' + doc.location }}" textWrap="true" cssClass="location" />
+	   <Label  text="{{ doc.stato | getMinchia() }}" textWrap="true" cssClass="stato" />
+	    <Label  text="{{ doc.iscritti | getIscrittiLength() }}" textWrap="true" cssClass="iscritti" />
+	   </StackLayout>
+	   
+    </ListView.itemTemplate>
+   </ListView>	
+</StackLayout>
+  	
+
+</Page>

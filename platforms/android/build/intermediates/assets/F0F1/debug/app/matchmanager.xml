@@ -1,0 +1,46 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <ActionBar title="Gestione match" cssClass="actionbar">
+   <NavigationButton android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+    <ActionBar.actionItems>
+	    
+        <!--<ActionItem text="Gare"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>-->
+        <ActionItem text="pop"   ios.position="right"  android.position="popup"/>
+      </ActionBar.actionItems>
+	</ActionBar> 
+  <StackLayout>
+  
+  <GridLayout columns="150,*" rows="35,25">
+  <Label id="matchlabel" colSpan="2" row="0"/>
+  <Label text="Tempo reale" col="0" row="1"/><Switch row="1" col="1" id="rtwitch" checked="{{ realtime }}" propertyChange="rtChanged"/>
+  </GridLayout>
+  <GridLayout columns="*,*,*,*,*" rows="40,40,40,40">
+  
+  
+    <Button id="butr1" text="R1" col="0" row="0" onTap="butplusTap"/>
+  <Button id="butr2" text="R2" col="1" row="0" />
+  <Button id="butr3" text="R3" col="2" row="0"/>
+  <Button id="butgp" text="GP" col="3" row="0"/>
+  <Button id="butpause" text="PS" col="4" row="0"/>
+  
+  
+  
+  <Button id="butplus1" text="+" col="0" row="1" onTap="butplusTap"/>
+  <Button id="butminus1" text="-" col="1" row="1" onTap="butplusTap"/>
+  <TextField id="risult1" text="0-0" col="2" row="1"/>
+  <Button id="butplus2" text="+" col="3" row="1" onTap="butplusTap"/>
+  <Button id="butminus2" text="-" col="4" row="1" onTap="butplusTap"/>
+  
+  <Button id="butsave" colSpan="5" text="SALVA" col="0" row="2"/>
+  
+  
+  </GridLayout>
+  <ListView items="{{ atleti }}" id="lv1" itemTap="listViewItemTap">
+	 <ListView.itemTemplate>
+       <Label text="{{ doc.nome }}" textWrap="true" class="lvitem" />
+	   
+    </ListView.itemTemplate>
+	</ListView>
+	
+ </StackLayout>
+</Page>

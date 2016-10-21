@@ -1,0 +1,52 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <Page.actionBar>
+     <!--<ActionBar title="Title">
+      <NavigationButton text="Gare"/>
+    </ActionBar>-->
+    <ActionBar title="Matches atleta" cssClass="actionbar">
+	  <NavigationButton android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+      <ActionBar.actionItems>
+	    
+        <ActionItem text="Gare"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>
+        <ActionItem text="pop"   ios.position="right"  android.position="popup"/>
+      </ActionBar.actionItems>
+    </ActionBar>
+  </Page.actionBar>
+ 	  <!--<ScrollView>-->
+<StackLayout orientation="vertical">
+
+  <!--<SegmentedBar style="vertical-align: top; margin: 20;">
+    <SegmentedBar.items>
+      <SegmentedBarItem title="Per match" id="sbprog"  />
+      <SegmentedBarItem title="Per atleta" id="sbatleta" />
+      <SegmentedBarItem title="Cronaca" id="sbcronaca" />
+    </SegmentedBar.items>
+  </SegmentedBar>-->
+  <Label id="lbtitle" cssClass="atleta" margin="5"/>
+
+   <ListView  id="lvprog" visibility="visible" itemTap="matchTap">
+	 <ListView.itemTemplate>
+	 <StackLayout orientation="horizontal">
+	   <StackLayout  cssClass="session-container" width="50">
+	     <!--<Label text="imma" />-->
+		 
+		 <Image id="imgmatch" width="36" height="36" src="{{ doc.imgurl }}" />
+	   </StackLayout>
+	   <StackLayout cssClass="session-container" orientation="vertical">
+       <Label text="{{ doc.matchid}}" textWrap="true" cssClass="match"  />
+	   <Label text="{{ doc.atletaname }}" textWrap="true" cssClass="atleta" />
+	   <Label text="{{ doc.risultext }}" textWrap="true" cssClass="risult" />
+	  </StackLayout> 
+	 </StackLayout> 
+    </ListView.itemTemplate>
+	</ListView>
+
+		
+
+	
+	</StackLayout>
+	
+ <!--</ScrollView>-->
+  
+</Page>

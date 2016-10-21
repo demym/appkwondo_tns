@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/icon.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/matchnoplay.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/matchnoplay.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/taekwondoka.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/taekwondoka.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/medaglia_argento.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/medaglia_argento.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/matchnull.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/matchnull.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/matchko.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/matchko.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/greenblink.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/greenblink.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/medaglia_bronzo.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/medaglia_bronzo.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/add_to_fav_1.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/add_to_fav_1.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/medaglia_oro.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/medaglia_oro.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/matchok.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/matchok.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/fight.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/fight.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/matchtoplay.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/matchtoplay.png"
+    },
+    {
+        "merged": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/user.png",
+        "source": "/Users/pietroturati/Desktop/PROJECTS/demy/proj02_sock/platforms/android/src/main/res/drawable-ldpi/user.png"
+    }
+]

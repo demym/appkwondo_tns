@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		01CF83058D034CD8989FE65A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13E73D6E9DEA400FBF07774B /* build.xcconfig */; };
+		075D5D9BFF79481F81B5E6A6 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = EC43E94D38594148880F8404 /* icon-60.png */; };
+		0BBB32387D804AE19E21FAE6 /* Default-Landscape-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6C8C911CE429EBD3F6795 /* Default-Landscape-667h@2x.png */; };
+		1789B59BD814468C8C02DA7D /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40454A2C7D9845C79010CCC7 /* Icon-Small-50@2x.png */; };
+		22EA942C26544C329519A557 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4E60889EA4112AD562032 /* icon@2x.png */; };
+		235E05BD55764208A3B79FA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D7A42F5F394CE19A36F9A5 /* LaunchScreen.xib */; };
+		278A66A33EA3470B91C70115 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B061D659C3FE49E09C2BEB6F /* TNSWidgets.framework */; };
+		2AA3BF105D4042FF8F2521EF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1707CFCB06144588AD2D13A4 /* icon.png */; };
+		2BD17872FFF54CDDBAF44C51 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FAC470219224A4B9291F32E /* Icon-Small.png */; };
+		331B2ED0181A45DE8D34722B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DFBF667F94F75BFEBAF56 /* Default@2x.png */; };
+		3697AD19F6B84C54B955AB9A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D68CADA40F64975B52CB8D2 /* Icon-Small-50.png */; };
+		3F85D60A7304413694F10722 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1E0D43FDF641828BACBA40 /* icon-72.png */; };
+		49FE9A98F9EA4706BD7ED756 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 615E31E649F04E988BBA8D52 /* Default-Portrait.png */; };
+		57CB1CAC3F841AE991925BEF /* Pods_proj02sock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D878283CF3ADE9750A56E0D /* Pods_proj02sock.framework */; };
+		6C6E9A3C2FD84B4C97031506 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B613F6640747DC8F319449 /* Default-667h@2x.png */; };
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		86B7D05CE626437389DBB68F /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F57C967046E4A2FB9C7C742 /* icon-76@2x.png */; };
+		8A2C268B4CBE49B3B282DA79 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0B24EBC22E492185F32FFA /* icon-76.png */; };
+		94063C0313354D72A99997CF /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE722FE0D673447F84ABD8ED /* Default-Portrait@2x.png */; };
+		B119174B7FA9427B9B7E6132 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D68D19F155D9411A8F12DF0D /* icon-40@2x.png */; };
+		B13372D9A7854D66BCD2C249 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3ABABA217834075809E6BB7 /* Icon-Small@2x.png */; };
+		BA6AA30A6D514E78B143E016 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F88D6EF30284FF98814929B /* Default-Landscape.png */; };
+		BB933859DB9C4141B116B370 /* Default-Landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2610120A8DEF4507A9C353BC /* Default-Landscape-568h@2x.png */; };
+		C93610813415410B95B3F774 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F68D5EE30B14EABB8F8BFED /* icon-40.png */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		D27305FB7AFB431E8DE581EA /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F362D5199EA4447E9DA51AF0 /* Default-Landscape@3x.png */; };
+		D2BE88D656B84692851476C0 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D82A444717D74F7EA5EED313 /* icon-60@2x.png */; };
+		D50541F18A5948269F558EB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31799F464D2E417A8FA87449 /* Default-568h@2x.png */; };
+		DBC68D76634E4999AE285219 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244EB242A6E486393418384 /* icon-72@2x.png */; };
+		E7E6276351E14DC48948BF99 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B061D659C3FE49E09C2BEB6F /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EBC205E3226E41C0B1B6436E /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF602242094C40A9C2DE57 /* Default-736h@3x.png */; };
+		F2CA10E9C88742659D5317EB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EAF8886D7F42EF962A2F38 /* Default.png */; };
+		F4446280A6CA4636B54238FB /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF0135E5DB4012BDCCA641 /* Default-Landscape@2x.png */; };
+		35F4F32F75DC457E8E72DDC5 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = D19BF9127304449C95A2DB58 /* user.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7E6276351E14DC48948BF99 /* TNSWidgets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D68CADA40F64975B52CB8D2 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "proj02sock/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		0FAC470219224A4B9291F32E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "proj02sock/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		13E73D6E9DEA400FBF07774B /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = proj02sock/Resources/build.xcconfig; sourceTree = "<group>"; };
+		1707CFCB06144588AD2D13A4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = proj02sock/Resources/icon.png; sourceTree = "<group>"; };
+		2610120A8DEF4507A9C353BC /* Default-Landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-568h@2x.png"; path = "proj02sock/Resources/Default-Landscape-568h@2x.png"; sourceTree = "<group>"; };
+		31799F464D2E417A8FA87449 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "proj02sock/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		40454A2C7D9845C79010CCC7 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "proj02sock/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		4D878283CF3ADE9750A56E0D /* Pods_proj02sock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proj02sock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0B24EBC22E492185F32FFA /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "proj02sock/Resources/icon-76.png"; sourceTree = "<group>"; };
+		4F88D6EF30284FF98814929B /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "proj02sock/Resources/Default-Landscape.png"; sourceTree = "<group>"; };
+		52B613F6640747DC8F319449 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "proj02sock/Resources/Default-667h@2x.png"; sourceTree = "<group>"; };
+		615E31E649F04E988BBA8D52 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "proj02sock/Resources/Default-Portrait.png"; sourceTree = "<group>"; };
+		66EAF8886D7F42EF962A2F38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = proj02sock/Resources/Default.png; sourceTree = "<group>"; };
+		6BDF0135E5DB4012BDCCA641 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "proj02sock/Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		6F68D5EE30B14EABB8F8BFED /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "proj02sock/Resources/icon-40.png"; sourceTree = "<group>"; };
+		79EF602242094C40A9C2DE57 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "proj02sock/Resources/Default-736h@3x.png"; sourceTree = "<group>"; };
+		7A1DFBF667F94F75BFEBAF56 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "proj02sock/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* proj02sock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proj02sock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* proj02sock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "proj02sock-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* proj02sock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "proj02sock-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* proj02sock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proj02sock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F57C967046E4A2FB9C7C742 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "proj02sock/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		9A1E0D43FDF641828BACBA40 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "proj02sock/Resources/icon-72.png"; sourceTree = "<group>"; };
+		9AA6C8C911CE429EBD3F6795 /* Default-Landscape-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h@2x.png"; path = "proj02sock/Resources/Default-Landscape-667h@2x.png"; sourceTree = "<group>"; };
+		9BE4E60889EA4112AD562032 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "proj02sock/Resources/icon@2x.png"; sourceTree = "<group>"; };
+		A3ABABA217834075809E6BB7 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "proj02sock/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B061D659C3FE49E09C2BEB6F /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = ../../lib/iOS/TNSWidgets.framework; sourceTree = "<group>"; };
+		B244EB242A6E486393418384 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "proj02sock/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		BE722FE0D673447F84ABD8ED /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "proj02sock/Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		D68D19F155D9411A8F12DF0D /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "proj02sock/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		D82A444717D74F7EA5EED313 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "proj02sock/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		EC43E94D38594148880F8404 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "proj02sock/Resources/icon-60.png"; sourceTree = "<group>"; };
+		F362D5199EA4447E9DA51AF0 /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@3x.png"; path = "proj02sock/Resources/Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		F5D7A42F5F394CE19A36F9A5 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = proj02sock/Resources/LaunchScreen.xib; sourceTree = "<group>"; };
+		D19BF9127304449C95A2DB58 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = "proj02sock/Resources/user.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278A66A33EA3470B91C70115 /* TNSWidgets.framework in Frameworks */,
+				57CB1CAC3F841AE991925BEF /* Pods_proj02sock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* proj02sock */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+				D0A4F23BAA56726E75E38D79 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* proj02sock.app */,
+				858B843318CA22B800AB12DE /* proj02sock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B061D659C3FE49E09C2BEB6F /* TNSWidgets.framework */,
+				4D878283CF3ADE9750A56E0D /* Pods_proj02sock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* proj02sock */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = proj02sock;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* proj02sock-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* proj02sock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0A4F23BAA56726E75E38D79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31799F464D2E417A8FA87449 /* Default-568h@2x.png */,
+				52B613F6640747DC8F319449 /* Default-667h@2x.png */,
+				79EF602242094C40A9C2DE57 /* Default-736h@3x.png */,
+				2610120A8DEF4507A9C353BC /* Default-Landscape-568h@2x.png */,
+				9AA6C8C911CE429EBD3F6795 /* Default-Landscape-667h@2x.png */,
+				4F88D6EF30284FF98814929B /* Default-Landscape.png */,
+				6BDF0135E5DB4012BDCCA641 /* Default-Landscape@2x.png */,
+				F362D5199EA4447E9DA51AF0 /* Default-Landscape@3x.png */,
+				615E31E649F04E988BBA8D52 /* Default-Portrait.png */,
+				BE722FE0D673447F84ABD8ED /* Default-Portrait@2x.png */,
+				66EAF8886D7F42EF962A2F38 /* Default.png */,
+				7A1DFBF667F94F75BFEBAF56 /* Default@2x.png */,
+				0D68CADA40F64975B52CB8D2 /* Icon-Small-50.png */,
+				40454A2C7D9845C79010CCC7 /* Icon-Small-50@2x.png */,
+				0FAC470219224A4B9291F32E /* Icon-Small.png */,
+				A3ABABA217834075809E6BB7 /* Icon-Small@2x.png */,
+				F5D7A42F5F394CE19A36F9A5 /* LaunchScreen.xib */,
+				13E73D6E9DEA400FBF07774B /* build.xcconfig */,
+				6F68D5EE30B14EABB8F8BFED /* icon-40.png */,
+				D68D19F155D9411A8F12DF0D /* icon-40@2x.png */,
+				EC43E94D38594148880F8404 /* icon-60.png */,
+				D82A444717D74F7EA5EED313 /* icon-60@2x.png */,
+				9A1E0D43FDF641828BACBA40 /* icon-72.png */,
+				B244EB242A6E486393418384 /* icon-72@2x.png */,
+				4F0B24EBC22E492185F32FFA /* icon-76.png */,
+				8F57C967046E4A2FB9C7C742 /* icon-76@2x.png */,
+				1707CFCB06144588AD2D13A4 /* icon.png */,
+				9BE4E60889EA4112AD562032 /* icon@2x.png */,
+				D19BF9127304449C95A2DB58 /* user.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* proj02sock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "proj02sock" */;
+			buildPhases = (
+				9F672B65F3CD5944946B5284 /* [CP] Check Pods Manifest.lock */,
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				E61CA2E901CC4803C05F7DFF /* [CP] Embed Pods Frameworks */,
+				3C639E91561B51E8C18F2E8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proj02sock;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* proj02sock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "proj02sock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* proj02sock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				D50541F18A5948269F558EB8 /* Default-568h@2x.png in Resources */,
+				6C6E9A3C2FD84B4C97031506 /* Default-667h@2x.png in Resources */,
+				EBC205E3226E41C0B1B6436E /* Default-736h@3x.png in Resources */,
+				BB933859DB9C4141B116B370 /* Default-Landscape-568h@2x.png in Resources */,
+				0BBB32387D804AE19E21FAE6 /* Default-Landscape-667h@2x.png in Resources */,
+				BA6AA30A6D514E78B143E016 /* Default-Landscape.png in Resources */,
+				F4446280A6CA4636B54238FB /* Default-Landscape@2x.png in Resources */,
+				D27305FB7AFB431E8DE581EA /* Default-Landscape@3x.png in Resources */,
+				49FE9A98F9EA4706BD7ED756 /* Default-Portrait.png in Resources */,
+				94063C0313354D72A99997CF /* Default-Portrait@2x.png in Resources */,
+				F2CA10E9C88742659D5317EB /* Default.png in Resources */,
+				331B2ED0181A45DE8D34722B /* Default@2x.png in Resources */,
+				3697AD19F6B84C54B955AB9A /* Icon-Small-50.png in Resources */,
+				1789B59BD814468C8C02DA7D /* Icon-Small-50@2x.png in Resources */,
+				2BD17872FFF54CDDBAF44C51 /* Icon-Small.png in Resources */,
+				B13372D9A7854D66BCD2C249 /* Icon-Small@2x.png in Resources */,
+				235E05BD55764208A3B79FA8 /* LaunchScreen.xib in Resources */,
+				01CF83058D034CD8989FE65A /* build.xcconfig in Resources */,
+				C93610813415410B95B3F774 /* icon-40.png in Resources */,
+				B119174B7FA9427B9B7E6132 /* icon-40@2x.png in Resources */,
+				075D5D9BFF79481F81B5E6A6 /* icon-60.png in Resources */,
+				D2BE88D656B84692851476C0 /* icon-60@2x.png in Resources */,
+				3F85D60A7304413694F10722 /* icon-72.png in Resources */,
+				DBC68D76634E4999AE285219 /* icon-72@2x.png in Resources */,
+				8A2C268B4CBE49B3B282DA79 /* icon-76.png in Resources */,
+				86B7D05CE626437389DBB68F /* icon-76@2x.png in Resources */,
+				2AA3BF105D4042FF8F2521EF /* icon.png in Resources */,
+				22EA942C26544C329519A557 /* icon@2x.png in Resources */,
+				35F4F32F75DC457E8E72DDC5 /* user.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C639E91561B51E8C18F2E8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proj02sock/Pods-proj02sock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F672B65F3CD5944946B5284 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+		E61CA2E901CC4803C05F7DFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proj02sock/Pods-proj02sock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../lib/iOS\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "proj02sock/proj02sock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/proj02sock/proj02sock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = proj02sock;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"../../lib/iOS\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "proj02sock/proj02sock-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/proj02sock/proj02sock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = proj02sock;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "proj02sock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "proj02sock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}

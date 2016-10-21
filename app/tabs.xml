@@ -1,0 +1,28 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+   <ActionBar title="AppKwonDo" cssClass="actionbar">
+    <ActionBar.actionItems>
+	    
+        <!--<ActionItem text="Gare"  ios.position="left" android.position="left" />
+        <ActionItem text="right" ios.position="right"/>-->
+        <ActionItem text="pop"   ios.position="right"  android.position="popup"/>
+      </ActionBar.actionItems>
+	</ActionBar> 
+ <GridLayout orientation="vertical">
+   <TabView>
+   <TabView.items>
+     <TabViewItem title="Tab 1">
+       <TabViewItem.view>
+          <Label text="Label in Tab1" />
+       </TabViewItem.view>
+     </TabViewItem>
+     <TabViewItem title="Tab 2">
+       <TabViewItem.view>
+          <Label text="Label in Tab2" />
+       </TabViewItem.view>
+     </TabViewItem>
+   </TabView.items>
+ </TabView>
+      <WebView url="http://tkdr.herokuapp.com" />
+
+ </GridLayout>
+</Page>

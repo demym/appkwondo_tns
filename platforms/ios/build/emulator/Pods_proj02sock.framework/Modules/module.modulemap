@@ -1,0 +1,6 @@
+framework module Pods_proj02sock {
+  umbrella header "Pods-proj02sock-umbrella.h"
+
+  export *
+  module * { export * }
+}
